@@ -10,7 +10,7 @@ This package allows to quickly open a Zurb Foundation project from Sublime Text.
 
 **Package Control**
 
-Select 'Foundation' from the Install Package... menu
+Select 'Zurb Foundation' from the Install Package... menu
 
 **Vanilla Sublime**
 
