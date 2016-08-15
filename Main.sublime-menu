@@ -1,0 +1,41 @@
+[
+    {
+        "id": "file",
+        "children":
+        [
+            {"id": "wrap"},
+            {"command": "foundation_project"}
+        ]
+    },
+    {
+        "id": "preferences",
+        "children":
+        [
+
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "Foundation",
+                        "children":
+                        [
+                           {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/Foundation/foundation.sublime-settings"},
+                                "caption": "Settings – Default"
+                            },
+                            {
+                                "command":  "open_file",
+                                "args":     { "file": "${packages}/User/foundation.sublime-settings" },
+                                "caption":  "Settings - User"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

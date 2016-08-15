@@ -1,0 +1,20 @@
+[
+    {
+        "caption": "Preferences: Foundation Settings - Default",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/Foundation/foundation.sublime-settings"
+        }
+    },
+    {
+        "caption": "Preferences: Foundation Settings - User",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/User/Foundation.sublime-settings"
+        }
+    },
+    {
+        "caption": "Foundation: New Project",
+        "command": "foundation_project"
+    }
+]
