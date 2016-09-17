@@ -34,6 +34,15 @@ If you're using Sublime Text 2, there's no way to set the current project progra
 - `zip_url`: The url to a customized build from <http://foundation.zurb.com/sites/download.html/> with the skeleton you want to proceed.
 
 - `default_path`: The location that will be pre-filled in the dialog box on creation.
+
+ **Preferences>Package Settings>Foundation>Settings-User**
+
+```
+{
+    "zip_url": "http://foundation.zurb.com/sites/download.html/complete",
+    "default_path": "C:/xampp/htdocs/projectName"
+}
+```
  
 ## License
 
